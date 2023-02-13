@@ -25,7 +25,7 @@ function App() {
         <main className={"main-container " + newClassName}>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/space-tourism" element={<Home />} />
             <Route
               className="destination-page"
               path="/destination"
