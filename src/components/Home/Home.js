@@ -16,7 +16,7 @@ const Home = () => {
         </P>
       </article>
       <article className="home-button">
-        <Link to="/detination">
+        <Link to="/destination">
           <button className="landing-page-button">EXPLORE</button>
         </Link>
       </article>
