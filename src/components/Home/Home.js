@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { H, P, SubH2 } from "../../styles/Headers.styled";
 import { HomeStyled } from "../../styles/Home.styled";
 
@@ -15,7 +16,9 @@ const Home = () => {
         </P>
       </article>
       <article className="home-button">
-        <button className="landing-page-button">EXPLORE</button>
+        <Link to="/detination">
+          <button className="landing-page-button">EXPLORE</button>
+        </Link>
       </article>
     </HomeStyled>
   );
