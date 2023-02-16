@@ -51,7 +51,7 @@ export const HomeStyled = styled.div`
 
   @media (min-width: 769px) {
     flex-direction: row;
-    margin: 50px 90px 0;
+    margin: 50px 90px 0 190px;
     .home-main-content {
       flex: 1.5;
       padding-left: 10px;
