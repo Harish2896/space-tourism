@@ -34,6 +34,7 @@ export const DestinationStyled = styled.div`
       padding: 0;
     }
   }
+
   @media (min-width: 450px) {
     .p-heading {
       font-size: 80px;
@@ -56,7 +57,9 @@ export const DestinationStyled = styled.div`
     margin-top: 35px;
     .section-heading {
       text-align: left;
+      margin-left: 100px;
       margin-bottom: 15px;
+      color: white;
       span {
         opacity: 0.5;
       }
@@ -64,6 +67,7 @@ export const DestinationStyled = styled.div`
     .section-main-content {
       display: flex;
       flex-direction: row;
+      margin: 0 30px;
       .planet-image {
         flex: 55%;
         margin: 20px 0;
@@ -78,7 +82,7 @@ export const DestinationStyled = styled.div`
           justify-content: flex-start;
         }
         .p-heading {
-          font-size: 80px;
+          font-size: 100px;
           padding-bottom: 0;
         }
         .destination-pgh {
@@ -86,18 +90,19 @@ export const DestinationStyled = styled.div`
           margin: 0;
           padding: 0;
           padding-bottom: 15px;
-          font-size: 13px;
+          font-size: 18px;
+          line-height: 32px;
           border-bottom: 1px solid gray;
         }
         footer {
           display: flex;
           justify-content: space-between;
           .distance-heading {
-            font-size: 20px;
-            padding: 10px 0 5px;
+            font-size: 16px;
+            padding: 15px 0 5px;
           }
           .distance {
-            font-size: 24px;
+            font-size: 32px;
             padding: 0;
           }
         }

@@ -39,6 +39,10 @@ export const CrewNavbutton = styled.button`
   &:hover {
     background: white;
   }
+  @media (min-width: 769px) {
+    padding: 7px;
+    margin-right: 30px;
+  }
 `;
 export const TechnologyNavbutton = styled.button`
   margin-right: 15px;

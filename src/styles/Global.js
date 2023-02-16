@@ -30,6 +30,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 body{
   background-color:${({ theme }) => theme.colors.darkBlue};

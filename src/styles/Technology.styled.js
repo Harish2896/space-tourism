@@ -64,9 +64,9 @@ export const TechnologyStyled = styled.div`
   }
   @media (min-width: 769px) {
     .technology-section-head {
-      margin-left: 100px;
+      margin-left: 195px;
       text-align: left;
-      font-size: 20px;
+      font-size: 28px;
     }
     .technology-section-content {
       display: flex;
@@ -90,10 +90,17 @@ export const TechnologyStyled = styled.div`
       }
       .technology-info {
         order: 2;
-        flex: 3;
+        flex: 2.5;
         margin: auto;
         padding: 0 50px;
+        .technology-title {
+          font-size: 18px;
+        }
+        .vehicle-name {
+          font-size: 50px;
+        }
         .vehicle-description {
+          font-size: 20px;
           margin: 0;
           padding: 0;
         }

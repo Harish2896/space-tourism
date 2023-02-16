@@ -4,32 +4,29 @@ export const NavbarStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px 0;
-  .logo {
-    img {
-      width: 80%;
-    }
-  }
+  padding: 30px 0 0 50px;
+
   .nav-links {
     display: flex;
     order: 3;
-    padding: 15px 40px 0px 90px;
+    justify-content: center;
+    padding: 20px 0px 2px 120px;
     background: hsl(0, 0%, 100%, 0.1);
     backdrop-filter: blur(5px);
 
     li a {
       display: flex;
       gap: 3px;
-      font-size: 12px;
+      font-size: 16px;
       padding-bottom: 15px;
-      margin-right: 30px;
+      margin-right: 80px;
       color: ${({ theme }) => theme.colors.grayishBlue};
       border-bottom: 2px solid transparent;
       cursor: pointer;
       transition: border 0.3s ease-in;
       .link-num {
-        letter-spacing: 2px;
-        font-size: 12px;
+        letter-spacing: 1px;
+        font-size: 16px;
       }
       .link-name {
         letter-spacing: 2px;
@@ -53,9 +50,9 @@ export const NavbarStyled = styled.nav`
     content: "";
     position: relative;
     background: gray;
-    right: -2%;
+    right: -5%;
     height: 1px;
-    width: 45%;
+    width: 33%;
     order: 2;
     margin-right: -10px;
   }

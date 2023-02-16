@@ -52,7 +52,7 @@ export const CrewStyled = styled.div`
   }
 
   @media (min-width: 769px) {
-    padding: 35px 65px 0;
+    padding: 35px 40px 0 165px;
     .crew-section-content {
       text-align: left;
       display: grid;
@@ -62,16 +62,21 @@ export const CrewStyled = styled.div`
         grid-row-start: 1;
         grid-row-end: 3;
         text-align: center;
+        height: 450px;
       }
       .crew-info {
         grid-column-start: 1;
         grid-row-start: 1;
         padding-top: 25px;
         .crew-role {
-          font-size: 18px;
+          font-size: 22px;
         }
         .crew-name {
-          font-size: 32px;
+          font-size: 50px;
+        }
+        .crew-bio {
+          font-size: 20px;
+          line-height: 30px;
         }
       }
       .crew-nav-tab {

@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const HomeStyled = styled.div`
   @keyframes transitionIn {
     from {
-      transform: translateX(-100%);
+      opacity: 0;
     }
     to {
-      transform: translateX(0);
+      opacity: 1;
     }
   }
   display: flex;
@@ -56,15 +56,15 @@ export const HomeStyled = styled.div`
       flex: 1.5;
       padding-left: 10px;
       .home-sub-heading {
-        font-size: 20px;
+        font-size: 28px;
         text-align: left;
       }
       .home-main-heading {
-        font-size: 100px;
+        font-size: 150px;
         text-align: left;
       }
       .home-pgh {
-        font-size: 13px;
+        font-size: 18px;
         padding-right: 25px;
         text-align: left;
       }
@@ -76,9 +76,9 @@ export const HomeStyled = styled.div`
 
       .landing-page-button {
         font-size: 24px;
-        height: 160px;
-        width: 160px;
-        margin-right: 60px;
+        height: 180px;
+        width: 180px;
+        margin-right: 100px;
       }
     }
   }
